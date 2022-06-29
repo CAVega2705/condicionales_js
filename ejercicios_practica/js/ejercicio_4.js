@@ -11,13 +11,13 @@ let texto2 = '7';
 //  Verifique cual cual de los dos textos es mayor alfabéticamente
 //  Imprima en pantalla según corresponda
 if(texto1 > texto2){
-    alert("El número "+texto1+ " es mayor que el número " + texto2+"." )
+    console.log("El número "+texto1+ " es mayor que el número " + texto2+"." )
 } else{
     if(texto1 < texto2){
-        alert("El número "+texto2+ " es mayor que el número " + texto1+".")
+        console.log("El número "+texto2+ " es mayor que el número " + texto1+".")
     }
     else{
-        alert("Ambos números son "+texto1+", es decir son iguales.")
+        console.log("Ambos números son "+texto1+", es decir son iguales.")
     }
 }
 //  Transforma esas variables tipo texto y almacénalas
